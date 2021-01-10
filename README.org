@@ -1,0 +1,46 @@
+#+TITLE: developing computational thinking
+#+STARTUP: hidestars
+
+meta-note: view this org file on emacs for better interactivity and template/UI because it'll look like shit on markdown. also you can convert to latex or html easily with emacs
+
+* WHAT IS THIS?
+My repo as I do some tiny problems to develop some computational thinking. Doing this because my todo list for january-march 2021 is to: 
+
+#+BEGIN_QUOTE
+"Do a few basic "algorithmic" problems to drill computational thinking. Might prepare me for coding interviews that does their exam along the same vein"
+#+END_QUOTE
+
+https://leetcode.com/johnamata/
+
+* LOGS + NOTES
+** Week 0 : 2021-01-10 to 2021-01-17
+*** day 0: Sunday. I probably shouldnt put this here since this week will end up with 8 days counted but meh. This is the day I start this journey. Started doing some leetcode, I think it's a good thing to work on. There's these daily challenges they're having and I plan to do at least one problem a day.
+
+- LC#0127 - Word Ladder - hard
+January daily challenge. Pretty hard, had to learn BFS to solve it. I learned that BFS is good for these types of search problems where there are items that are related and the logical relationship between them is transitive - and thus I can build a graph that I can traverse using BFS.
+
+Learned about java's queue too, and .offer() vs .add() from this article https://www.interviewsansar.com/which-method-will-you-prefer-between-add-and-offer-methods-to-add-elements-in-a-queue-and-why/
+
+*** day 1:
+*** day 2:
+*** day 3:
+*** day 4:
+*** day 5:
+*** day 6:
+*** day 7:
+** Week 1 : 2021-01-18 to 2021-01-24
+*** day 1:
+*** day 2:
+*** day 3:
+*** day 4:
+*** day 5:
+*** day 6:
+*** day 7:
+** Week 2 : 2021-01-25 to 2021-01-31
+*** day 1:
+*** day 2:
+*** day 3:
+*** day 4:
+*** day 5:
+*** day 6:
+*** day 7:

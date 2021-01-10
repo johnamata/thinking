@@ -1,0 +1,8 @@
+# macos files
+.DS_Store
+
+# emacs files
+*~
+
+# java files
+*.class
