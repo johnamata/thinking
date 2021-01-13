@@ -1,29 +1,62 @@
 #+TITLE: developing computational thinking
 #+STARTUP: hidestars
 
-meta-note: view this org file on emacs for better interactivity and template/UI because it'll look like shit on markdown. also you can convert to latex or html easily with emacs
+meta-note: view this org file on emacs for better interactivity and template/UI because it'll look like shit on markdown. also once this doc gets long enough, one can choose to export it easily to latex or html easily with emacs
 
 * WHAT IS THIS?
-My repo as I do some tiny problems to develop some computational thinking. Doing this because my todo list for january-march 2021 is to: 
+My repo as I do some tiny problems to develop some computational thinking.  Leetcode and codeforces solutions have explanations, for almost every line of code. Doing this because my todo list for january-march 2021 is to: 
 
 #+BEGIN_QUOTE
 "Do a few basic "algorithmic" problems to drill computational thinking. Might prepare me for coding interviews that does their exam along the same vein"
 #+END_QUOTE
 
-https://leetcode.com/johnamata/
+my leetcode profile, the graph is a good way to track my productivity: https://leetcode.com/johnamata/
+
+hackerrank has a daily activity graph too to track my productivity, I used hackerrank to learn Java syntax: [[https://www.hackerrank.com/johnamata][https://www.hackerrank.com/johnamata]]
+
+I'm also tracking my sessions using toggl track: [[https://apps.apple.com/us/app/toggl-track-hours-time-log/id1291898086][https://apps.apple.com/us/app/toggl-track-hours-time-log/id1291898086]]
 
 * LOGS + NOTES
-** Week 0 : 2021-01-10 to 2021-01-17
-*** day 0: Sunday. I probably shouldnt put this here since this week will end up with 8 days counted but meh. This is the day I start this journey. Started doing some leetcode, I think it's a good thing to work on. There's these daily challenges they're having and I plan to do at least one problem a day.
+** Week 0 : 2021-01-10 to 2021-01-17 | Total Time Spent (minutes are ignored, in some days I spent 3 hours and 53 mins, but I ignored counting the minutes to make it easier to count): 
+*** day 0: Sunday. I probably shouldnt put this here since this week will end up with 8 days counted but meh. This is the day I start this journey. Started doing some leetcode, I think it's a good thing to work on. There's these daily challenges they're having and I plan to do at least one problem a day. Toggl says I spent 3 hours on 1 leetcode problem.
 
-- LC#0127 - Word Ladder - hard
+- [[https://leetcode.com/problems/word-ladder/][LC#0127]] - Word Ladder - Hard
 January daily challenge. Pretty hard, had to learn BFS to solve it. I learned that BFS is good for these types of search problems where there are items that are related and the logical relationship between them is transitive - and thus I can build a graph that I can traverse using BFS.
 
 Learned about java's queue too, and .offer() vs .add() from this article https://www.interviewsansar.com/which-method-will-you-prefer-between-add-and-offer-methods-to-add-elements-in-a-queue-and-why/
 
-*** day 1:
-*** day 2:
-*** day 3:
+*** day 1: Now we really start the week. Today I learned binary search. Toggl says I spent 2 hours today on studying algorithms.
+
+Importance of binary search from leetcode
+
+#+BEGIN_QUOTE
+"Binary Search should be considered every time you need to search for an index or element in a collection. If the collection is unordered, we can always sort it first before applying Binary Search."
+#+END_QUOTE
+
+- [[https://leetcode.com/problems/binary-search/][LC#0704]] - Binary Search - Easy
+Good way to review algorithms. Pretty much just translated the pseudocode from https://en.wikipedia.org/wiki/Binary_search_algorithm#Procedure
+
+- [[https://codeforces.com/problemset/problem/750/A][CF-750-A]] - New Year and Hurry - Codeforces 800
+So I tried codeforces, and bumped into this problem tagged as a binary search problem but it's actually just an implementation problem. I had a hard time with the < and > operators, had a brainfart about that. Forgot that <= exists. I think I need to work on more implementation problems at codeforces. These seem to be the type of problems that develop computational thinking, compared to leetcode that are more specifically on the algorithmic side. Nonetheless, I'm thinking to do more leetcode binary search problems for this week. I'm planning to finish the questions here ([[https://leetcode.com/explore/learn/card/binary-search/][LeetCode Binary Search Explore Card]]) this week.
+
+*** day 2: lazy day today. I learned about edabit and only did a few basic problems with it, like ultra basic problems. I spent 3 hours on this, of which AT LEAST 2 hours of that is waiting for the site to load. My God it is slow, it takes 20 seconds to compile my program, load a page, etc. Anyhow since I'm feeling lazy and wanted to at least do something, I convinced myself to waste my time on it. This is my edabit account: https://edabit.com/user/tDEnR4nrdjbwSCzTW. I was trying to start from the easiest questions all the way to the hardest BUT IT TURNS OUT THAT I HAVE TO PAY A MONTHLY SUBSCRIPTION to do more problems. So I ended up with just doing like less than 10 turbo easy problems I think. I spent less than an hour studying.
+
+*** day 3: original plan today was to do a bunch of problems, and continue learning binary search with leetcode, but I got lazy and did a bunch of things. I also began doing problems at hackerrank to get some Java basics down, here's my profile: https://www.hackerrank.com/johnamata Other than that, I started going through the Pupil section of this curriculum [[https://github.com/AhmadElsagheer/Competitive-programming-library/tree/master/curriculum][ACM Curriculum]] to have some basics of competitive programming down. Competitive programming problems are more fun than the dry leetcode problems, leetcode feels like a chore doing as the problems are uninteresting and more like a drill. Spent 8 hours studying today, googling a bunch of stuff about Java and sometimes just browsing around the net.
+
+- HackerRank 30 Days of Code Problems, Day 0 - Day 6: learning the basics of Java. One to note is that I learned (see my day 6 solution about it and my note) that Java's Scanner's nextInt() leaves a pesky newline \n as it only reads the integer, thus I have to do another nextLine() to consume the empty newline created by it.
+
+- [[https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/][LC#1662]] - Check if Two Strings Are Equivalent - Easy
+I learned about var_string.equals() for comparing strings for Java. Whole problem was just a matter of concatenating the strings in the arrays.
+
+- [[https://leetcode.com/problems/merge-sorted-array/][LC#0088]] - Merge Sorted Array - Easy
+An introduction to the two pointer method, see my solution (file name is leetcode_easy_0088_merge_sorted_array.java) for notes.
+
+- [[https://codeforces.com/problemset/problem/705/A][CF-705-A]] - Hulk - Codeforces 800
+Learned that the modulo operator returns the absolute value of the remainder. Doesnt matter if it's 300%200 or 200%300, it will return 100.
+
+- [[https://codeforces.com/problemset/problem/520/A][CF-520-A]] - Pangram - Codeforces 800
+I used a hashset to solve it, but the answer from the ACM curriculum I'm doing is more interesting as it doesnt use any and uses char subtraction. Its answer though is longer but I need to learn how to solve things without relying on data structures. Also it's good practice to think about whether you should "clean" the string first by doing stuff like turning them all to lowercase (var_string.toLowerCase() in Java)first.
+  
 *** day 4:
 *** day 5:
 *** day 6:
