@@ -1,8 +1,13 @@
 # macos files
-.DS_Store
-
+#.DS_Store
 # emacs files
-*~
-
+#*~
 # java files
-*.class
+#*.class
+
+*                                                                           
+!*/
+!*.java
+!*.cpp
+!*.org
+!*.gitiginore
