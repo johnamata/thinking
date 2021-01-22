@@ -2,7 +2,7 @@
 #+STARTUP: hidestars
 
 * WHAT IS THIS?
-My repo as I do some tiny problems to develop some computational thinking. For now I'm focusing on the *algorithmic* side of computational thinking.  My Leetcode and codeforces solutions have explanations through comments directly on the source code, some in kattis and UVa also have explanations. I also like doing some questions at geeksforgeeks having enrolled in some of their courses, of which you can view what courses I enrolled there along with my total solved problem count here: [[https://auth.geeksforgeeks.org/user/johnpatrickamata/practice/][my geeksforgeeks profile]]
+My repo as I do some tiny problems to develop some computational thinking. For now I'm focusing on the *algorithmic* side of computational thinking.  My Leetcode and codeforces solutions have explanations through comments directly on the source code, some in kattis and UVa also have explanations. I also like doing some questions at geeksforgeeks having enrolled in some of their courses.
 
 So why spend time on tiny programming problems? Well I'm doing this because my todo list for january-march 2021 is to: 
 
