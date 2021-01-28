@@ -25,6 +25,7 @@ Some of the things I've learned from going over the algo problems i've solved he
 
 * Strings
 - .toLowerCase() and .toUpperCase()
+- .strip() - remove spaces. I usually use it like String s = sc.nextLine().strip();
 - .equals() - for comparing strings. using == on strings will only compare its memory addresses
 - .startWith()
 - valueOf()
