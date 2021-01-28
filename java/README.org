@@ -7,6 +7,8 @@ Some of the things I've learned from going over the algo problems i've solved he
 - Character.getNumericValue()
 - Integer.parseInt()
 - Double.parseDouble()
+- fastio templates: http://neerc.ifmo.ru/trains/information/Template.java
+- other fastio templates to get inspo from: see Java submissions of [[https://codeforces.com/profile/Petr][Petr]], [[https://codeforces.com/profile/eatmore][eatmore]] 
 
 * Numbers
 - if number is over 2 billion value (either positive/negative), go with double or start thinking about bigintegers
