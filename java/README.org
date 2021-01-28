@@ -22,6 +22,7 @@ Some of the things I've learned from going over the algo problems i've solved he
 - Math.pow(base, exponent)
 
 * Strings
+- .toLowerCase() and .toUpperCase()
 - .equals() - for comparing strings. using == on strings will only compare its memory addresses
 - .startWith()
 - valueOf()
