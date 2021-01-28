@@ -9,6 +9,7 @@ Some of the things I've learned from going over the algo problems i've solved he
 - Double.parseDouble()
 
 * Numbers
+- if number is over 2 billion value (either positive/negative), go with double or start thinking about bigintegers
 - operations involving integers will have integer results, such as 
 - parseInt()
 - Math.round()
