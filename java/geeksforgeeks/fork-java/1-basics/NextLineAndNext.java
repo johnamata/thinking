@@ -6,11 +6,11 @@ import java.io.*;
 import java.util.*;
 
 class GFG {
-	public static void main (String[] args) {
+    public static void main (String[] args) {
 		
-		Geeks g = new Geeks();
-		g.getInput();
-	}
+	Geeks g = new Geeks();
+	g.getInput();
+    }
 }// } Driver Code Ends
 
 
@@ -19,23 +19,24 @@ class GFG {
 //Complete the function
 //Take input for a and s 
 class Geeks {
-	static void getInput () {
+    static void getInput () {
 		
-	    Scanner sc = new Scanner(System.in);
-	    int t=sc.nextInt(); //Taking the number of testcases
-	    while(t-->0)
+	Scanner sc = new Scanner(System.in);
+	int t=sc.nextInt(); //Taking the number of testcases
+	while(t-->0)
 	    {
-    		 int a = sc.nextInt(); 
-    		 //because nextInt() only gets the int and not the \n
-    		 sc.nextLine();
-    	    String s =sc.nextLine();
+		int a = sc.nextInt(); 
+		//because nextInt() only gets the int and not the \n
+		sc.nextLine();
+		String s =sc.nextLine();
+	    
     	    
-    	    //Your code here
+		//Your code here
     
     		System.out.println(a);
     		System.out.println(s);
 	    }
 	
-	}
+    }
 }
 
