@@ -1,0 +1,35 @@
+#+TITLE: some notes
+
+Some of the things I've learned from going over the algo problems i've solved here that I feel are important for me to review every now and then
+
+* input
+- hasNext()
+- Character.getNumericValue()
+- Integer.parseInt()
+- Double.parseDouble()
+
+* Numbers
+- operations involving integers will have integer results, such as 
+- parseInt()
+- Math.round()
+- Math.ceil()
+- Math.floor()
+- Math.sin()
+- Math.toRadians()
+- Math.max(a,b) - returns greater number of 2 parameters
+- Math.min(a,b)
+- Math.pow(base, exponent)
+
+* Strings
+- .equals() - for comparing strings. using == on strings will only compare its memory addresses
+- .startWith()
+- valueOf()
+- contains()
+- substring()
+- .split()
+- .charAt()
+- .length() - method call for strings, it's different from just simply .length which is an array property, a common mistake i make
+
+* Collections
+- .size() count size of hashset
+- .isEmpty() check if hashset is empty
