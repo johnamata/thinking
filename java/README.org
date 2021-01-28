@@ -31,7 +31,7 @@ Some of the things I've learned from going over the algo problems i've solved he
 - valueOf()
 - contains()
 - substring()
-- .split()
+- .split() - splits string based on parameter or regex and removes these certain characters. for example, the following code takes an input string of words with spaces, and puts it in an array of strings with just the words (no spaces): **String[] s = in.nextLine().split(" ");**
 - .charAt()
 - .length() - method call for strings, it's different from just simply .length which is an array property, a common mistake i make
 
