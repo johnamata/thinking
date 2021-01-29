@@ -9,6 +9,6 @@ public class Tarifa{
 	for(int i = 0; i < n; i++){
 	    sum += sc.nextInt();
 	}
-	System.out.println(10 + ((n *10) - sum));	
+	System.out.println(x + ((n * x) - sum));	
     }
 }
