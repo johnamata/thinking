@@ -1,60 +1,45 @@
-/**
-Java Template for fast io at online judges
-from http://neerc.ifmo.ru/trains/information/Template.java
- */
-import java.util.*;
 import java.io.*;
-
+import java.util.*;
 public class Template {
-    FastScanner in;
-    PrintWriter out;
+    //replaced my old template, for most online judge use
+    static class InputReader {
+        BufferedReader reader;
+        StringTokenizer tokenizer;
 
-    public void solve() throws IOException {
-        
-    }
-
-    public void run() {
-        try {
-            in = new FastScanner(new File(".in"));
-            out = new PrintWriter(new File(".out"));
-
-            solve();
-
-            out.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    class FastScanner {
-        BufferedReader br;
-        StringTokenizer st;
-
-        FastScanner(File f) {
-            try {
-                br = new BufferedReader(new FileReader(f));
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
-            }
+        public InputReader(InputStream stream) {
+            reader = new BufferedReader(new InputStreamReader(stream), 32768);
+            tokenizer = null;
         }
 
         String next() {
-            while (st == null || !st.hasMoreTokens()) {
+            while (tokenizer == null || !tokenizer.hasMoreTokens()) {
                 try {
-                    st = new StringTokenizer(br.readLine());
+                    tokenizer = new StringTokenizer(reader.readLine());
                 } catch (IOException e) {
-                    e.printStackTrace();
+                    throw new RuntimeException(e);
                 }
             }
-            return st.nextToken();
+            return tokenizer.nextToken();
         }
-
-        int nextInt() {
+        public int nextInt() {
             return Integer.parseInt(next());
         }
-    }
 
-    public static void main(String[] arg) {
-        new Template().run();
+        public long nextLong() {
+            return Long.parseLong(next());
+        }
+
+        public double nextDouble() {
+            return Double.parseDouble(next());
+        }
+    }
+    static InputReader in = new InputReader(System.in);
+    static PrintWriter out = new PrintWriter(System.out);
+
+    //------------------------------------------------------//
+    //------------------------------------------------------//
+    public static void main(String[] args) {
+        //------------------------------------------------------//
+        out.close();
     }
 }

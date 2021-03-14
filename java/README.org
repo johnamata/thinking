@@ -2,6 +2,12 @@
 
 Some of the things I've learned from going over the algo problems i've solved here that I feel are important for me to review every now and then
 
+* import
+- essentials:
+#+BEGIN_SRC java
+import java.io.*;
+import java.util.*;
+#+END_SRC
 * input
 - hasNext()
 - Character.getNumericValue()
@@ -36,5 +42,73 @@ Some of the things I've learned from going over the algo problems i've solved he
 - .length() - method call for strings, it's different from just simply .length which is an array property, a common mistake i make
 
 * Collections
+- Arrays.toString() for printing single arrays
+- Arrays.deepToString() for printing multi-dimensional arrays
 - .size() count size of hashset
 - .isEmpty() check if hashset is empty
+
+* datastruc
+- static arrays: int[] arr;
+
+- dynamic arrays: it's called ArrayList in Java 
+#+BEGIN_SRC java
+ArrayList <Integer> al = new ArrayList <>(); 
+#+END_SRC
+ 
+- We can give it a size so it wont resize itself: 
+#+BEGIN_SRC java
+ArrayList <Integer> al = new ArrayList <>(30);
+#+END_SRC
+
+- sorting static arrays (ascending): Arrays.sort()
+- sorting dynamic arrays (ascending): Collections.sort(list)
+
+- Stack: LIFO. 
+#+BEGIN_SRC java
+Stack <Integer> st = new Stack <>();
+#+END_SRC
+
+- Queue: Java doesnt have a queue, we use linkedlist instead. 
+#+BEGIN_SRC java
+Queue <Integer> st = new LinkedList<>();
+#+END_SRC
+
+- Deque: double ended queue, the class is called ArrayDeque in Java.
+#+BEGIN_SRC java
+ArrayDeque <Integer> dq = new ArrayDeque<>();
+#+END_SRC
+
+- Priority Queue:
+#+BEGIN_SRC java
+PriorityQueue<Integer> pq = new PriorityQueue<>();
+#+END_SRC
+
+
+- Ordered Map: TreeMap
+#+BEGIN_SRC java
+
+#+END_SRC
+
+- Unordered Map: HashMap
+#+BEGIN_SRC java
+
+#+END_SRC
+
+- Unordered Set: HashSet
+#+BEGIN_SRC java
+HashSet<Integer> hs = new HashSet<>();
+#+END_SRC
+
+- Ordered Set: TreeSet
+#+BEGIN_SRC java
+TreeSet<Integer> ts = new TreeSet<>();
+#+END_SRC
+
+- Multiset: nothing in Java, instead we implement with TreeMap
+#+BEGIN_SRC java
+
+#+END_SRC
+
+* datastruc misc
+- stack to traverse tree without recursion
+- graphs: store them globally
