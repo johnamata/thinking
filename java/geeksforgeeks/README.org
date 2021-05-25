@@ -13,319 +13,319 @@
 
 ** Arrays
 *** Easy
-Rotate Array
-Majority Element
-Plus one
-Array of alternative +ve and -ve no.s
-Product Array puzzle
-Frequencies of Limited Range Array Elements
-Large Factorial
+- Rotate Array
+- Majority Element
+- Plus one
+- Array of alternative +ve and -ve no.s
+- Product Array puzzle
+- Frequencies of Limited Range Array Elements
+- Large Factorial
 *** Medium
-Jump Game
-Maximum number of 1’s
-Stock Buy and Sell
-Longest Consecutive Subsequence
-Maximum value of difference of a pair of elements and their Index
-Maximum index
-K-th element of two sorted Arrays
-Trapping Rain Water
-3 sum closest
+- Jump Game
+- Maximum number of 1’s
+- Stock Buy and Sell
+- Longest Consecutive Subsequence
+- Maximum value of difference of a pair of elements and their Index
+- Maximum index
+- K-th element of two sorted Arrays
+- Trapping Rain Water
+- 3 sum closest
 *** Hard 
-Maximum circular Subarray Sum
-Merge without Extra Space
+- Maximum circular Subarray Sum
+- Merge without Extra Space
 
 
 ** Searching
-Easy
-Search insert position of K in a sorted array
-Collecting Wood
-Left most and right most index
-Bitonic Point 
-Medium
-Search an element in sorted and rotated array
-Square root of a number
-Find missing in second array
-Hard
-Painter’s Partition Problem
-Median of 2 sorted arrays of Different sizes
-Allocate minimum number of pages
+*** Easy
+- Search insert position of K in a sorted array
+- Collecting Wood
+- Left most and right most index
+- Bitonic Point 
+*** Medium
+- Search an element in sorted and rotated array
+- Square root of a number
+- Find missing in second array
+*** Hard
+- Painter’s Partition Problem
+- Median of 2 sorted arrays of Different sizes
+- Allocate minimum number of pages
 
 ** Sorting
-Easy
-Wave array
-Medium
-Count the number of possible triangles
-Triplets with sum with given range
-Count Inversions
-Relative Sorting
-Minimum Platforms
-Maximum Index
+*** Easy
+- Wave array
+*** Medium
+- Count the number of possible triangles
+- Triplets with sum with given range
+- Count Inversions
+- Relative Sorting
+- Minimum Platforms
+- Maximum Index
 
 ** Matrix
-Easy 
-Sort  a 2D vector diagonally
-Medium
-Spiral Matrix
-Boolean matrix
-Rotate matrix by 90 degrees
-Search in a row-column sorted Matrix
-Row with maximum 1s
+*** Easy 
+- Sort  a 2D vector diagonally
+*** Medium
+- Spiral Matrix
+- Boolean matrix
+- Rotate matrix by 90 degrees
+- Search in a row-column sorted Matrix
+- Row with maximum 1s
 
 ** String
-Easy 
-Reverse words in a given string
-Longest Common Prefix
-Roman Number to Integer
-Medium
-Next higher palindrome number using the same set of digits
-Length of longest prefix suffix
-Smallest window in string containing all characters
-Validate an IP address
-Implement Atoi
-Look and say Pattern
-Longest K unique characters substring
+*** Easy 
+- Reverse words in a given string
+- Longest Common Prefix
+- Roman Number to Integer
+*** Medium
+- Next higher palindrome number using the same set of digits
+- Length of longest prefix suffix
+- Smallest window in string containing all characters
+- Validate an IP address
+- Implement Atoi
+- Look and say Pattern
+- Longest K unique characters substring
 
 ** Hashing
-Easy 
-Key Pair
-Top K Frequent Elements in Array
-Intersection of two arrays
-Array Pair Sum Divisibility Problem
-Medium
-Triplet Sum in Array
-Length of the longest substring
-Is Sudoku Valid
-Print Anagrams Together 
-Subarrays with sum K
-Longest subarray with sum divisible by K
+*** Easy 
+- Key Pair
+- Top K Frequent Elements in Array
+- Intersection of two arrays
+- Array Pair Sum Divisibility Problem
+*** Medium
+- Triplet Sum in Array
+- Length of the longest substring
+- Is Sudoku Valid
+- Print Anagrams Together 
+- Subarrays with sum K
+- Longest subarray with sum divisible by K
 
 ** Bit Masking
-Easy 
-Reverse bits
-Number of set bits
-Sum of two integers
-Check whether K-th bit is set or not
-Longest Consecutive 1’s
-Medium 
-Find the element that appears once
-Gray code
-Maximum AND
-Hard 
-Maximum subset XOR
-Bit Difference
+*** Easy 
+- Reverse bits
+- Number of set bits
+- Sum of two integers
+- Check whether K-th bit is set or not
+- Longest Consecutive 1’s
+*** Medium 
+- Find the element that appears once
+- Gray code
+- Maximum AND
+- Hard 
+- Maximum subset XOR
+- Bit Difference
 
 ** Linked List
-Easy
-Merge Two Sorted Linked Lists
-Reverse a Linked List
-Delete a Node without Head Pointer
-Add two Numbers represented by linked lists
-Finding middle element in a linked list
-Check if linked list is palindrome
-Medium
-Rearrange a linked list
-Detect and Remove a loop In Linked List
-Merge Sort for Linked List
-Intersection of Linked List
-Rotate Linked List by K places
-Flattening a Linked List
-Reverse a linked list in groups of given size
-Partition a linked list around a given value
-Hard
-Clone a linked list with next and random pointers
+*** Easy
+- Merge Two Sorted Linked Lists
+- Reverse a Linked List
+- Delete a Node without Head Pointer
+- Add two Numbers represented by linked lists
+- Finding middle element in a linked list
+- Check if linked list is palindrome
+*** Medium
+- Rearrange a linked list
+- Detect and Remove a loop In Linked List
+- Merge Sort for Linked List
+- Intersection of Linked List
+- Rotate Linked List by K places
+- Flattening a Linked List
+- Reverse a linked list in groups of given size
+- Partition a linked list around a given value
+*** Hard
+- Clone a linked list with next and random pointers
 
 ** Stack
-Easy
-Parenthesis Checker
-Infix to Postfix
-Restrictive Candy Crush
-Medium
-Next Larger Element 
-Stock span problem
-The Celebrity Problem
-Maximum Rectangular Area in a Histogram 
-Hard
-Longest Valid Parentheses
-Maximum of minimum for every window size
-Remove K digits
-132 Geeky Buildings
+*** Easy
+- Parenthesis Checker
+- Infix to Postfix
+- Restrictive Candy Crush
+*** Medium
+- Next Larger Element 
+- Stock span problem
+- The Celebrity Problem
+- Maximum Rectangular Area in a Histogram 
+*** Hard
+- Longest Valid Parentheses
+- Maximum of minimum for every window size
+- Remove K digits
+- 132 Geeky Buildings
 
 ** Queue
-Medium
-Maximum of all subarrays of size K
-Circular tour (Sliding Window)
+*** Medium
+- Maximum of all subarrays of size K
+- Circular tour (Sliding Window)
 
 ** Heap
-Easy
-Rearrange Characters
-Minimum Cost of ropes
-Medium
-Kth largest element of stream
-Merge k sorted arrays
-Hard
-Median of stream
+*** Easy
+- Rearrange Characters
+- Minimum Cost of ropes
+*** Medium
+- Kth largest element of stream
+- Merge k sorted arrays
+*** Hard
+- Median of stream
 
 ** Binary Tree
-Easy
-Symmetric Tree
-Zigzag Tree Traversal
-Checked for Balanced tree
-Height of Binary Tree
-Diameter of Binary tree
-Determine if two trees are identical
-Minimum depth of binary tree
-Medium
-Check if subtree
-Inorder Traversal (iterative)
-Preorder Traversal (iterative)
-Postorder Traversal(iterative)
-Vertical Traversal of a Binary Tree
-Construct Binary Tree from Preorder and Inorder Traversal
-Connect nodes at same level
-Lowest Common Ancestor of a Binary Tree
-Boundary Traversal
-Sum tree
-Hard
-Binary Tree to Doubly Linked List
-Maximum sum path between two leaf nodes
-Burning Tree
+*** Easy
+- Symmetric Tree
+- Zigzag Tree Traversal
+- Checked for Balanced tree
+- Height of Binary Tree
+- Diameter of Binary tree
+- Determine if two trees are identical
+- Minimum depth of binary tree
+*** Medium
+- Check if subtree
+- Inorder Traversal (iterative)
+- Preorder Traversal (iterative)
+- Postorder Traversal(iterative)
+- Vertical Traversal of a Binary Tree
+- Construct Binary Tree from Preorder and Inorder Traversal
+- Connect nodes at same level
+- Lowest Common Ancestor of a Binary Tree
+- Boundary Traversal
+- Sum tree
+*** Hard
+- Binary Tree to Doubly Linked List
+- Maximum sum path between two leaf nodes
+- Burning Tree
 
 ** Binary Search Tree
-Easy
-Check for BST
-Array to BST
-Inorder Successor in BST
-Kth Largest Element in a BST
-Medium
-Remove BST keys outside the given range
-Pair with given target in BST
-Unique BSTs
-Preorder Traversal and BST
-Hard
-Merge two BST’s
-Fixing two nodes of a BST
+*** Easy
+- Check for BST
+- Array to BST
+- Inorder Successor in BST
+- Kth Largest Element in a BST
+*** Medium
+- Remove BST keys outside the given range
+- Pair with given target in BST
+- Unique BSTs
+- Preorder Traversal and BST
+*** Hard
+- Merge two BST’s
+- Fixing two nodes of a BST
 
 ** Graph
-Medium
-Number of Islands
-COVID Spread
-Prerequisite tasks
-Strongly Connected Component
-Minimum swaps to sort
-Shortest path
-Circle of Strings
-Snake and Ladder Problem 
-Detect cycle in an undirected graph
-Detect cycle in a directed graph
-Check for Bipartite graph
-Unit Area of Largest region of 1s
-Hard
-Alien Dictionary
-Word Ladder
+*** Medium
+- Number of Islands
+- COVID Spread
+- Prerequisite tasks
+- Strongly Connected Component
+- Minimum swaps to sort
+- Shortest path
+- Circle of Strings
+- Snake and Ladder Problem 
+- Detect cycle in an undirected graph
+- Detect cycle in a directed graph
+- Check for Bipartite graph
+- Unit Area of Largest region of 1s
+*** Hard
+- Alien Dictionary
+- Word Ladder
 
 ** Trie
-Medium
-Minimum XOR value pair
-Word Boggle – II
-Most frequent word in an array of strings
-Minimum XOR value pair
+*** Medium
+- Minimum XOR value pair
+- Word Boggle – II
+- Most frequent word in an array of strings
+- Minimum XOR value pair
 
 ** Greedy
-Medium
-N meetings in one room
-Coin Piles
-Maximize Toys
-Largest number with given sum
-Minimize the heights
-Fractional Knapsack
-Job Sequencing
-Police and Thieves
-Water the Plants
+*** Medium
+- N meetings in one room
+- Coin Piles
+- Maximize Toys
+- Largest number with given sum
+- Minimize the heights
+- Fractional Knapsack
+- Job Sequencing
+- Police and Thieves
+- Water the Plants
 
 ** DP
-Easy 
-Count ways to reach the n’th stair
-Get Minimum Squares
-Nth Fibonacci Number
-Medium
-0 – 1 Knapsack Problem
-Number of Coins
-Edit distance
-Maximize The Cut Segments
-Box Stacking
-Longest Increasing Subsequence
-Longest Palindromic Substring
-Longest Common Substring
-Longest Common Subsequence
-Wildcard Pattern Matching
-Total Decoding Messages
-Max length chain
-Maximum sum increasing subsequence
-Minimum number of jumps
-Subset Sum Problem
-Maximum path sum in matrix
-Player with max score
-Shortest Common Supersequence
-Palindrome Partitioning
-Form a Palindrome
-Hard
-Boolean Parenthesization
-Matrix Chain
-Maximum Profit
-Minimum Cost Path
-Partition Equal Subset Sum
+*** Easy 
+- Count ways to reach the n’th stair
+- Get Minimum Squares
+- Nth Fibonacci Number
+*** Medium
+- 0 – 1 Knapsack Problem
+- Number of Coins
+- Edit distance
+- Maximize The Cut Segments
+- Box Stacking
+- Longest Increasing Subsequence
+- Longest Palindromic Substring
+- Longest Common Substring
+- Longest Common Subsequence
+- Wildcard Pattern Matching
+- Total Decoding Messages
+- Max length chain
+- Maximum sum increasing subsequence
+- Minimum number of jumps
+- Subset Sum Problem
+- Maximum path sum in matrix
+- Player with max score
+- Shortest Common Supersequence
+- Palindrome Partitioning
+- Form a Palindrome
+*** Hard
+- Boolean Parenthesization
+- Matrix Chain
+- Maximum Profit
+- Minimum Cost Path
+- Partition Equal Subset Sum
 
 ** Recursion
-Easy
-Number of Paths
-Pascals Triangle
-Josephus problem
-Tower of Hanoi
-Medium
-Special Keyboard
-Flood Fill Algorithm
+*** Easy
+- Number of Paths
+- Pascals Triangle
+- Josephus problem
+- Tower of Hanoi
+*** Medium
+- Special Keyboard
+- Flood Fill Algorithm
 
 ** Backtracking
-Easy
-Permutations    
-Medium
-Letter Combinations of a Phone Number
-Generate Parentheses
-Word Boggle – 1
-Rat in a Maze Problem
-Largest number in K swaps
-Combination Sum
-Hard
-Palindrome Partitioning
-N-Queen Problem
-Solve the Sudoku
+*** Easy
+- Permutations    
+*** Medium
+- Letter Combinations of a Phone Number
+- Generate Parentheses
+- Word Boggle – 1
+- Rat in a Maze Problem
+- Largest number in K swaps
+- Combination Sum
+*** Hard
+- Palindrome Partitioning
+- N-Queen Problem
+- Solve the Sudoku
 
 ** Algorithms
-Easy
-Bubble Sort
-Insertion Sort
-Selection Sort
-Medium
-Merge Sort
-Quick Sort
-Heap Sort
-Count Sort
-Kadane Algorithm
-Minimum Spanning Tree
-Implementing Dijkstra Algorithm
-Floyd Warshall
-Bellman Ford Algorithm
-Rabin-Karp Algorithm
-KMP algorithm
-Z Algorithm
-Huffman Encoding
+*** Easy
+- Bubble Sort
+- Insertion Sort
+- Selection Sort
+*** Medium
+- Merge Sort
+- Quick Sort
+- Heap Sort
+- Count Sort
+- Kadane Algorithm
+- Minimum Spanning Tree
+- Implementing Dijkstra Algorithm
+- Floyd Warshall
+- Bellman Ford Algorithm
+- Rabin-Karp Algorithm
+- KMP algorithm
+- Z Algorithm
+- Huffman Encoding
 
 ** Design
-Easy
-Stack using two queues
-Queue using stack
-Medium
-Ternary Search
-Binary Heap Operations
-LRU cache
-Trie | (Insert and Search)
+*** Easy
+- Stack using two queues
+- Queue using stack
+*** Medium
+- Ternary Search
+- Binary Heap Operations
+- LRU cache
+- Trie | (Insert and Search)
