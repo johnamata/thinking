@@ -20,7 +20,7 @@ import java.util.*;
 - if number is over 2 billion value (either positive/negative), go with double or start thinking about bigintegers
 - getting number of digits in a number, we can convert it to strings or use logarithms
 
-#+BEGIN_SRC 
+#+BEGIN_SRC java
 //best use is String.valueOf() as we dont need to work with wrappers unlike if we use toString()
 //here's a sample code using it for leetcode #1295, find numbers with even number of digits
 
