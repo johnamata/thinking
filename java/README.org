@@ -18,6 +18,26 @@ import java.util.*;
 
 * Numbers
 - if number is over 2 billion value (either positive/negative), go with double or start thinking about bigintegers
+- getting number of digits in a number, we can convert it to strings or use logarithms
+
+#+BEGIN_SRC 
+//best use is String.valueOf() as we dont need to work with wrappers unlike if we use toString()
+//here's a sample code using it for leetcode #1295, find numbers with even number of digits
+
+public int findNumbers(int[] nums) {
+        int evenDigits = 0;
+        int getDigits = 0;
+        for (int i = 0; i < nums.length; i++){
+            getDigits = String.valueOf(nums[i]).length();
+	    //alternatively, we can use logarithms to get it instead of converting
+	    //getDigits = (int)(Math.log10(nums[i])+1);
+            if (getDigits % 2 == 0)
+                evenDigits++;
+        }
+        return evenDigits;
+}
+#+END_SRC
+
 - operations involving integers will have integer results, such as 
 - parseInt()
 - Math.round()
