@@ -6,5 +6,8 @@ Hint: just print (I-1)*A+1
 #include <iostream>
 using namespace std;
 int main(){
- return 0;   
+    int a, i;
+    cin >> a >> i;
+    cout << (i-1)*a+1;
+    return 0;   
 }
